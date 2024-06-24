@@ -400,13 +400,13 @@ li .card-body p {
 }
 
 .featured_section .see-more {
-  width: 100%;
+  max-width: 90%;
   text-align: center;
   margin: 20px auto 50px;
 }
 
 .see-more button {
-  padding: 24px 160px;
+  padding: 20px 25%;
   font-size: 24px;
   color: var(--text-color);
   background-color: var(--background);
@@ -502,6 +502,10 @@ footer .created p {
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
+  }
+
+  .featured_section .see-more {
+    max-width: 800px;
   }
 }
 
